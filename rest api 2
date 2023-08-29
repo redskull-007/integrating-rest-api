@@ -56,7 +56,7 @@
                 console.log(response);
                 const candyList = response.data;
                 const parentNode = document.getElementById("list");
-                parentNode.innerHTML = ""; // Clear the existing list
+             
     
                 candyList.forEach((item) => {
                     addItemList(item);
